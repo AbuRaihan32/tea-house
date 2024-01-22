@@ -37,7 +37,7 @@
     </script>
 </head>
 
-<body class="container mx-auto px-4 border-2 font-manrope">
+<body class="container mx-auto px-4  font-manrope">
     <header class="">
         <!-- start banner section -->
         <div class="hero w-full">
@@ -113,16 +113,17 @@
         </section>
 
         <!-- Gerat Tea -->
-        <section class="flex gap-14">
-            <div class="grid grid-cols-2 grid-rows-3 flex-1 gap-8">
+        <section class="flex flex-col-reverse md:flex-row gap-14">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 flex-1 gap-8">
 
                 <div class="h-40 rounded-xl bg-gradient-to-r from-[#FFE6E6] to-[#FFF3EB]"></div>
 
-                <div class="row-span-2 rounded-xl bg-[#e6a6231a] flex items-center">
+                <div class="md:row-span-2 rounded-xl bg-[#e6a6231a] flex items-center">
                     <img class=" mx-auto" src="images/fresh-1.png" alt="">
                 </div>
 
-                <div class="row-span-2 rounded-xl bg-[#D9D9D9] flex items-center">
+                <div class="md:row-span-2 rounded-xl bg-[#D9D9D9] flex items-center">
                     <img class="mx-auto" src="images/fresh-2.png" alt="">
                 </div>
 
@@ -136,7 +137,7 @@
                     <br>
                     Presented
                 </h2>
-                <p class="lg:w-4/5">The meaning of gong cha is chanese is to provide the best tea to emperor from all
+                <p class="lg:w-4/5 font-medium">The meaning of gong cha is chanese is to provide the best tea to emperor from all
                     possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha
                     had been deeply appreciated by its custoers because of good words of mouth and unique customized
                     service orginated from Taiwan.</p>
@@ -147,6 +148,53 @@
 
                 <h3 class="text-xl font-extrabold">Premium Quality</h3>
                 <p class="lg:w-4/6">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+        </section>
+
+        <!-- meet section -->
+        <section class="my-32 flex gap-14 px-20 py-24 pt-28 bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-xl ">
+            <div class="flex items-center">
+                <div class="space-y-6">
+                    <h2 class="text-5xl font-extrabold text-white">
+                        Meet Our Super <br>
+                        Clients
+                    </h2>
+                    <p class= "leading-relaxed text-white w-4/6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                    
+                    <button class="btn text-[#F00] font-semibold text-xl">Show All</button>
+                </div>
+            </div>
+
+            <!--next revew -->
+            <div class="relative">
+                <div class="bg-white p-12 rounded-lg relative opacity-40 z-0 mb-16">
+                    <img class="absolute -left-6 -top-6 p-1 rounded-full bg-white" src="images/client.png" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+    
+                    <h2 class="font-bold mt-8">Ilham Yuda</h2>
+                    <p>Businessman</p>
+                    <img class="absolute bottom-4 right-4" src="images/circles.png" alt="">
+                </div>
+                
+                <!-- current revewe -->
+                <div class="absolute bg-white p-12 rounded-lg w-[495px] right-40 top-40 z-10">
+                    <img class="absolute -left-6 -top-6 p-1 rounded-full bg-white" src="images/client.png" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+    
+                    <h2 class="font-bold mt-8">Ilham Yuda</h2>
+                    <p>Businessman</p>
+                    <img class="absolute bottom-4 right-4" src="images/circles.png" alt="">
+                </div>
+                
+                <!-- prevuse revewe -->
+                <div class="bg-white p-12 rounded-lg relative opacity-40 z-0">
+                    <img class="absolute -left-6 -top-6 p-1 rounded-full bg-white" src="images/client.png" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+    
+                    <h2 class="font-bold mt-8">Ilham Yuda</h2>
+                    <p>Businessman</p>
+                    <img class="absolute bottom-4 right-4" src="images/circles.png" alt="">
+                </div>
             </div>
         </section>
     </main>
